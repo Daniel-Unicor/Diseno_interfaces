@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVA: Técnicas de oratoria y expresión oral</title>
+    <title>Guía de Wireframes y Prototipos UX/UI</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,27 +63,36 @@
 
             <!-- Introducción -->
             <div id="introduccion" class="content-pane active">
-                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4">Trabajo colaborativo en equipos</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-4">¿Por qué wireframes y prototipos?</h2>
 
                 <p class="text-slate-700 leading-relaxed mb-4">
-                    El trabajo colaborativo es una de las habilidades más importantes en los entornos educativos y
-                    laborales actuales. A través de la colaboración,
-                    las personas aprenden a comunicarse, respetar las ideas de los demás y asumir responsabilidades
-                    compartidas para alcanzar metas comunes.
-                    <br>
-                    <br>
-                    En esta unidad exploraremos las diferencias entre un grupo y un equipo, las características del
-                    trabajo colaborativo, los roles que cada integrante puede desempeñar
-                    y las normas de convivencia que permiten un ambiente armonioso y productivo.
-                    <br>
+                    Imagina que vas a construir una casa. Antes de empezar, no compras ladrillos ni pintura, primero
+                    haces un plano. Ese plano te permite organizar ideas, evitar errores y ahorrar tiempo.
+                    <br><br>
+                    En diseño digital pasa exactamente lo mismo.
+                    Antes de crear una app o una página web, los diseñadores usan wireframes y prototipos para
+                    visualizar cómo funcionará el producto, probar ideas y mejorar la experiencia del usuario sin gastar
+                    tiempo programando.
                 </p>
-                <div class="mt-8 p-4 sm:p-6 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
-                    <p class="text-green-800">
-                        <strong>El propósito es que reconozcas la importancia de trabajar con otros de manera
-                            organizada, participativa y solidaria, fortaleciendo tanto tus competencias personales como
-                            tus habilidades sociales.</strong>
-                    </p>
 
+                <div class="mt-8 p-4 sm:p-6 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                    <p class="text-green-800 mb-4">
+                        <strong>En esta guía vas a aprender a:</strong>
+                    </p>
+                    <ul class="space-y-3 text-green-800">
+                        <li class="flex items-start">
+                            <span class="mr-2">🚀</span>
+                            <span>Organizar ideas como un diseñador profesional.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2">📐</span>
+                            <span>Crear estructuras claras de interfaces.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2">🖱️</span>
+                            <span>Convertir esas ideas en experiencias navegables.</span>
+                        </li>
+                    </ul>
                 </div>
                 <!-- Componente de síntesis de voz para introducción -->
                 <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-4"
@@ -116,16 +125,22 @@
                 <ul class="space-y-4">
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                         <span class="text-green-700 mr-3 text-2xl">🧠</span>
-                        <span>Reconocer las características del trabajo colaborativo.</span>
+                        <span>Comprender la función de los wireframes como herramienta de planificación visual.</span>
                     </li>
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                        <span class="text-green-700 mr-3 text-2xl">🔍</span>
-                        <span>Identificar roles y responsabilidades dentro de un equipo.</span>
+                        <span class="text-green-700 mr-3 text-2xl">📐</span>
+                        <span>Estructurar la información de una interfaz gráfica de manera lógica y centrada en el
+                            usuario.</span>
                     </li>
-
                     <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                        <span class="text-green-700 mr-3 text-2xl">📝</span>
-                        <span>Aplicar normas de trabajo en equipo en actividades prácticas.</span>
+                        <span class="text-green-700 mr-3 text-2xl">📊</span>
+                        <span>Diferenciar entre un wireframe, un prototipo de baja fidelidad y uno de alta
+                            fidelidad.</span>
+                    </li>
+                    <li class="flex items-start p-4 bg-white rounded-lg shadow-sm">
+                        <span class="text-green-700 mr-3 text-2xl">🖌️</span>
+                        <span>Diseñar un prototipo básico y navegable utilizando herramientas profesionales
+                            (Figma).</span>
                     </li>
                 </ul>
                 <!-- Componente de síntesis de voz para Objetivos -->
@@ -156,7 +171,8 @@
             <!-- Contenido: Wireframes -->
             <div id="contenido" class="content-pane">
                 <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-2">Wireframes y Prototipos en UX/UI</h2>
-                <p class="text-slate-500 mb-6 text-sm">Explora cada sección para dominar los conceptos clave del diseño de interfaces.</p>
+                <p class="text-slate-500 mb-6 text-sm">Explora cada sección para dominar los conceptos clave del diseño
+                    de interfaces.</p>
 
                 <!-- ===== TABS NAV ===== -->
                 <div class="wf-tabs-nav" id="wf-tabs-nav">
@@ -175,7 +191,8 @@
                         <div class="wf-hero-body">
                             <h3 class="wf-hero-title">¿Qué es un Wireframe?</h3>
                             <p class="wf-hero-text">
-                                Un wireframe es una <strong>representación visual esquemática</strong> de una interfaz digital que muestra
+                                Un wireframe es una <strong>representación visual esquemática</strong> de una interfaz
+                                digital que muestra
                                 la distribución de los elementos, la jerarquía de la información y la navegación,
                                 <em>sin incluir diseño visual definitivo</em> (colores, tipografías, imágenes reales).
                             </p>
@@ -185,10 +202,13 @@
                     <!-- Analogía de la casa -->
                     <div class="wf-analogy-block">
                         <div class="wf-analogy-label">💡 Analogía</div>
-                        <p>Imagina que vas a construir una casa. Antes de pensar en el color de las paredes o los muebles,
-                        necesitas saber <strong>dónde van las habitaciones, cómo se conectan, dónde estarán las puertas y ventanas</strong>.
-                        Un wireframe es exactamente eso para una página web: el <em>esqueleto</em> que no tiene "piel"
-                        (colores, tipografías) pero muestra cómo se sostiene todo.</p>
+                        <p>Imagina que vas a construir una casa. Antes de pensar en el color de las paredes o los
+                            muebles,
+                            necesitas saber <strong>dónde van las habitaciones, cómo se conectan, dónde estarán las
+                                puertas y ventanas</strong>.
+                            Un wireframe es exactamente eso para una página web: el <em>esqueleto</em> que no tiene
+                            "piel"
+                            (colores, tipografías) pero muestra cómo se sostiene todo.</p>
                     </div>
 
                     <!-- Esqueleto visual CSS -->
@@ -208,21 +228,41 @@
                             <div class="wf-skel-btn-fake"></div>
                         </div>
                         <div class="wf-skel-grid">
-                            <div class="wf-skel-card-fake"><div class="wf-skel-img-fake"></div><div class="wf-skel-line"></div><div class="wf-skel-line short"></div></div>
-                            <div class="wf-skel-card-fake"><div class="wf-skel-img-fake"></div><div class="wf-skel-line"></div><div class="wf-skel-line short"></div></div>
-                            <div class="wf-skel-card-fake"><div class="wf-skel-img-fake"></div><div class="wf-skel-line"></div><div class="wf-skel-line short"></div></div>
+                            <div class="wf-skel-card-fake">
+                                <div class="wf-skel-img-fake"></div>
+                                <div class="wf-skel-line"></div>
+                                <div class="wf-skel-line short"></div>
+                            </div>
+                            <div class="wf-skel-card-fake">
+                                <div class="wf-skel-img-fake"></div>
+                                <div class="wf-skel-line"></div>
+                                <div class="wf-skel-line short"></div>
+                            </div>
+                            <div class="wf-skel-card-fake">
+                                <div class="wf-skel-img-fake"></div>
+                                <div class="wf-skel-line"></div>
+                                <div class="wf-skel-line short"></div>
+                            </div>
                         </div>
                         <div class="wf-skel-label-badge">WIREFRAME</div>
                     </div>
 
                     <!-- Speech controls -->
-                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-4" data-target="wf-def">
-                        <button class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span class="mr-1">▶️</span> Leer</button>
-                        <button class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏸️</span> Pausar</button>
-                        <button class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏹️</span> Detener</button>
+                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-4"
+                        data-target="wf-def">
+                        <button
+                            class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span
+                                class="mr-1">▶️</span> Leer</button>
+                        <button
+                            class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏸️</span> Pausar</button>
+                        <button
+                            class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏹️</span> Detener</button>
                         <div class="flex items-center ml-2">
                             <label for="speech-rate-wf-def" class="text-sm text-green-800 mr-2">Velocidad:</label>
-                            <input type="range" class="speech-rate" id="speech-rate-wf-def" min="0.5" max="2" step="0.1" value="1">
+                            <input type="range" class="speech-rate" id="speech-rate-wf-def" min="0.5" max="2" step="0.1"
+                                value="1">
                         </div>
                     </div>
                 </div>
@@ -230,39 +270,48 @@
                 <!-- ===== TAB 2: PARA QUÉ SIRVE ===== -->
                 <div class="wf-tab-panel" id="wf-paraque">
                     <h3 class="wf-section-label">🎯 ¿Para qué sirven exactamente?</h3>
-                    <p class="text-slate-600 mb-6">En la industria, los wireframes cumplen <strong>tres grandes funciones</strong>. Haz clic en cada tarjeta para ver más.</p>
+                    <p class="text-slate-600 mb-6">En la industria, los wireframes cumplen <strong>tres grandes
+                            funciones</strong>. Haz clic en cada tarjeta para ver más.</p>
 
                     <!-- 3 function cards -->
                     <div class="wf-function-grid">
                         <div class="wf-fn-card" id="fnc-1">
                             <div class="wf-fn-icon">🧠</div>
                             <h4 class="wf-fn-title">Pensar antes de crear</h4>
-                            <p class="wf-fn-text">Obligan al diseñador a tomar decisiones sobre la <strong>estructura</strong> antes de preocuparse por lo estético.</p>
+                            <p class="wf-fn-text">Obligan al diseñador a tomar decisiones sobre la
+                                <strong>estructura</strong> antes de preocuparse por lo estético.
+                            </p>
                             <div class="wf-fn-detail">
-                                <p>Preguntas clave: ¿Dónde va el botón de "comprar"? ¿Qué información es lo primero que debe ver el usuario?  Resolver esto antes de codificar ahorra horas de trabajo.</p>
+                                <p>Preguntas clave: ¿Dónde va el botón de "comprar"? ¿Qué información es lo primero que
+                                    debe ver el usuario? Resolver esto antes de codificar ahorra horas de trabajo.</p>
                             </div>
                         </div>
                         <div class="wf-fn-card" id="fnc-2">
                             <div class="wf-fn-icon">💬</div>
                             <h4 class="wf-fn-title">Comunicar ideas</h4>
-                            <p class="wf-fn-text">Son el <strong>lenguaje común</strong> entre diseñadores, desarrolladores y clientes.</p>
+                            <p class="wf-fn-text">Son el <strong>lenguaje común</strong> entre diseñadores,
+                                desarrolladores y clientes.</p>
                             <div class="wf-fn-detail">
-                                <p>Todos pueden ver y entender la estructura propuesta sin necesidad de tener conocimientos técnicos. Un wireframe habla por sí solo.</p>
+                                <p>Todos pueden ver y entender la estructura propuesta sin necesidad de tener
+                                    conocimientos técnicos. Un wireframe habla por sí solo.</p>
                             </div>
                         </div>
                         <div class="wf-fn-card" id="fnc-3">
                             <div class="wf-fn-icon">🔁</div>
                             <h4 class="wf-fn-title">Probar y mejorar rápido</h4>
-                            <p class="wf-fn-text">Es infinitamente más fácil <strong>borrar una caja</strong> en un wireframe que rehacer una pantalla en código.</p>
+                            <p class="wf-fn-text">Es infinitamente más fácil <strong>borrar una caja</strong> en un
+                                wireframe que rehacer una pantalla en código.</p>
                             <div class="wf-fn-detail">
-                                <p>Los cambios cuestan segundos, no días.  El equipo puede iterar 10 veces en un día y llegar a la mejor solución antes de escribir una sola línea de código.</p>
+                                <p>Los cambios cuestan segundos, no días. El equipo puede iterar 10 veces en un día y
+                                    llegar a la mejor solución antes de escribir una sola línea de código.</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Caso Spotify: Sin vs Con wireframe -->
                     <h3 class="wf-section-label mt-8">🎵 Caso Real: Spotify</h3>
-                    <p class="text-slate-600 mb-4">Cuando el equipo rediseñó su pantalla de inicio, empezaron con wireframes en papel, no con colores ni tipografías.</p>
+                    <p class="text-slate-600 mb-4">Cuando el equipo rediseñó su pantalla de inicio, empezaron con
+                        wireframes en papel, no con colores ni tipografías.</p>
 
                     <div class="wf-compare-toggle-wrapper">
                         <div class="wf-compare-switch">
@@ -294,13 +343,21 @@
                     </div>
 
                     <!-- Speech controls -->
-                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6" data-target="wf-paraque">
-                        <button class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span class="mr-1">▶️</span> Leer</button>
-                        <button class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏸️</span> Pausar</button>
-                        <button class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏹️</span> Detener</button>
+                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6"
+                        data-target="wf-paraque">
+                        <button
+                            class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span
+                                class="mr-1">▶️</span> Leer</button>
+                        <button
+                            class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏸️</span> Pausar</button>
+                        <button
+                            class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏹️</span> Detener</button>
                         <div class="flex items-center ml-2">
                             <label for="speech-rate-wf-paraque" class="text-sm text-green-800 mr-2">Velocidad:</label>
-                            <input type="range" class="speech-rate" id="speech-rate-wf-paraque" min="0.5" max="2" step="0.1" value="1">
+                            <input type="range" class="speech-rate" id="speech-rate-wf-paraque" min="0.5" max="2"
+                                step="0.1" value="1">
                         </div>
                     </div>
                 </div>
@@ -308,7 +365,9 @@
                 <!-- ===== TAB 3: NIVELES DE FIDELIDAD ===== -->
                 <div class="wf-tab-panel" id="wf-fidelidad">
                     <h3 class="wf-section-label">📊 Los tres niveles de fidelidad</h3>
-                    <p class="text-slate-600 mb-6">Los wireframes no son todos iguales. Cuanto más alto el nivel, <strong>más se parece al producto final</strong>.</p>
+                    <p class="text-slate-600 mb-6">Los wireframes no son todos iguales. Cuanto más alto el nivel,
+                        <strong>más se parece al producto final</strong>.
+                    </p>
 
                     <!-- Fidelity timeline -->
                     <div class="wf-fidelity-track">
@@ -396,13 +455,21 @@
                     </div>
 
                     <!-- Speech controls -->
-                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6" data-target="wf-fidelidad">
-                        <button class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span class="mr-1">▶️</span> Leer</button>
-                        <button class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏸️</span> Pausar</button>
-                        <button class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏹️</span> Detener</button>
+                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6"
+                        data-target="wf-fidelidad">
+                        <button
+                            class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span
+                                class="mr-1">▶️</span> Leer</button>
+                        <button
+                            class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏸️</span> Pausar</button>
+                        <button
+                            class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏹️</span> Detener</button>
                         <div class="flex items-center ml-2">
                             <label for="speech-rate-wf-fidelidad" class="text-sm text-green-800 mr-2">Velocidad:</label>
-                            <input type="range" class="speech-rate" id="speech-rate-wf-fidelidad" min="0.5" max="2" step="0.1" value="1">
+                            <input type="range" class="speech-rate" id="speech-rate-wf-fidelidad" min="0.5" max="2"
+                                step="0.1" value="1">
                         </div>
                     </div>
                 </div>
@@ -412,8 +479,10 @@
                     <h3 class="wf-section-label">⚡ Wireframe vs Prototipo</h3>
                     <div class="wf-analogy-block">
                         <div class="wf-analogy-label">🎬 Metáfora</div>
-                        <p>El <strong>wireframe</strong> es como el <em>guion de una película</em>: describe qué va a pasar en cada escena.<br>
-                        El <strong>prototipo</strong> es como el <em>tráiler</em>: ya puedes verlo, sentirlo y decidir si te interesa, aunque aún no se haya filmado completa.</p>
+                        <p>El <strong>wireframe</strong> es como el <em>guion de una película</em>: describe qué va a
+                            pasar en cada escena.<br>
+                            El <strong>prototipo</strong> es como el <em>tráiler</em>: ya puedes verlo, sentirlo y
+                            decidir si te interesa, aunque aún no se haya filmado completa.</p>
                     </div>
 
                     <!-- Comparison Table -->
@@ -429,8 +498,10 @@
                             <tbody>
                                 <tr>
                                     <td class="wf-aspect">¿Es interactivo?</td>
-                                    <td class="wf-cell-wire"><span class="wf-no">✗</span> No. Es una imagen estática.</td>
-                                    <td class="wf-cell-proto"><span class="wf-yes">✓</span> Sí. Puedes hacer clic y navegar.</td>
+                                    <td class="wf-cell-wire"><span class="wf-no">✗</span> No. Es una imagen estática.
+                                    </td>
+                                    <td class="wf-cell-proto"><span class="wf-yes">✓</span> Sí. Puedes hacer clic y
+                                        navegar.</td>
                                 </tr>
                                 <tr>
                                     <td class="wf-aspect">Propósito</td>
@@ -463,15 +534,23 @@
                             <div class="wf-proto-card-header">
                                 <span class="wf-proto-badge low-pb">Baja fidelidad</span>
                             </div>
-                            <p class="wf-proto-desc">Rápido, sencillo e interactivo al nivel más básico. Puede ser tan simple como hojas de papel con flechas dibujadas representando pantallas.</p>
+                            <p class="wf-proto-desc">Rápido, sencillo e interactivo al nivel más básico. Puede ser tan
+                                simple como hojas de papel con flechas dibujadas representando pantallas.</p>
                             <div class="wf-pros-cons">
                                 <div class="wf-pros">
                                     <div class="wf-pc-title">✓ Ventajas</div>
-                                    <ul><li>Rápido de crear</li><li>Fácil de modificar</li><li>Ideal para explorar ideas</li></ul>
+                                    <ul>
+                                        <li>Rápido de crear</li>
+                                        <li>Fácil de modificar</li>
+                                        <li>Ideal para explorar ideas</li>
+                                    </ul>
                                 </div>
                                 <div class="wf-cons">
                                     <div class="wf-pc-title">✗ Desventajas</div>
-                                    <ul><li>No muestra el diseño final</li><li>Puede generar confusión visual</li></ul>
+                                    <ul>
+                                        <li>No muestra el diseño final</li>
+                                        <li>Puede generar confusión visual</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -479,28 +558,44 @@
                             <div class="wf-proto-card-header">
                                 <span class="wf-proto-badge high-pb">Alta fidelidad</span>
                             </div>
-                            <p class="wf-proto-desc">Prácticamente indistinguible del producto final. Tiene colores reales de la marca, tipografías correctas, imágenes reales y animaciones.</p>
+                            <p class="wf-proto-desc">Prácticamente indistinguible del producto final. Tiene colores
+                                reales de la marca, tipografías correctas, imágenes reales y animaciones.</p>
                             <div class="wf-pros-cons">
                                 <div class="wf-pros">
                                     <div class="wf-pc-title">✓ Ventajas</div>
-                                    <ul><li>Muy realista</li><li>Ideal para pruebas con usuarios</li><li>Impresiona a clientes e inversores</li></ul>
+                                    <ul>
+                                        <li>Muy realista</li>
+                                        <li>Ideal para pruebas con usuarios</li>
+                                        <li>Impresiona a clientes e inversores</li>
+                                    </ul>
                                 </div>
                                 <div class="wf-cons">
                                     <div class="wf-pc-title">✗ Desventajas</div>
-                                    <ul><li>Toma más tiempo</li><li>Los cambios son más costosos</li></ul>
+                                    <ul>
+                                        <li>Toma más tiempo</li>
+                                        <li>Los cambios son más costosos</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Speech controls -->
-                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6" data-target="wf-proto">
-                        <button class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span class="mr-1">▶️</span> Leer</button>
-                        <button class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏸️</span> Pausar</button>
-                        <button class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏹️</span> Detener</button>
+                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6"
+                        data-target="wf-proto">
+                        <button
+                            class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span
+                                class="mr-1">▶️</span> Leer</button>
+                        <button
+                            class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏸️</span> Pausar</button>
+                        <button
+                            class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏹️</span> Detener</button>
                         <div class="flex items-center ml-2">
                             <label for="speech-rate-wf-proto" class="text-sm text-green-800 mr-2">Velocidad:</label>
-                            <input type="range" class="speech-rate" id="speech-rate-wf-proto" min="0.5" max="2" step="0.1" value="1">
+                            <input type="range" class="speech-rate" id="speech-rate-wf-proto" min="0.5" max="2"
+                                step="0.1" value="1">
                         </div>
                     </div>
                 </div>
@@ -508,7 +603,8 @@
                 <!-- ===== TAB 5: HERRAMIENTAS ===== -->
                 <div class="wf-tab-panel" id="wf-tools">
                     <h3 class="wf-section-label">🛠️ Herramientas de diseño</h3>
-                    <p class="text-slate-600 mb-6">Estas son las principales herramientas que usan los diseñadores UX/UI en la industria. Haz clic en cada tarjeta para conocerla.</p>
+                    <p class="text-slate-600 mb-6">Estas son las principales herramientas que usan los diseñadores UX/UI
+                        en la industria. Haz clic en cada tarjeta para conocerla.</p>
                     <div class="wf-tools-grid">
                         <div class="wf-tool-card" data-tool="figma">
                             <div class="wf-tool-icon figma-icon">🎨</div>
@@ -577,13 +673,21 @@
                     </div>
 
                     <!-- Speech controls -->
-                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6" data-target="wf-tools">
-                        <button class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span class="mr-1">▶️</span> Leer</button>
-                        <button class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏸️</span> Pausar</button>
-                        <button class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center" disabled><span class="mr-1">⏹️</span> Detener</button>
+                    <div class="speech-controls mb-4 p-3 bg-green-100 rounded-lg flex items-center flex-wrap gap-2 mt-6"
+                        data-target="wf-tools">
+                        <button
+                            class="play-btn bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-4 rounded-full flex items-center"><span
+                                class="mr-1">▶️</span> Leer</button>
+                        <button
+                            class="pause-btn bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏸️</span> Pausar</button>
+                        <button
+                            class="stop-btn bg-red-500 hover:bg-red-600 text-white font-medium py-1 px-4 rounded-full flex items-center"
+                            disabled><span class="mr-1">⏹️</span> Detener</button>
                         <div class="flex items-center ml-2">
                             <label for="speech-rate-wf-tools" class="text-sm text-green-800 mr-2">Velocidad:</label>
-                            <input type="range" class="speech-rate" id="speech-rate-wf-tools" min="0.5" max="2" step="0.1" value="1">
+                            <input type="range" class="speech-rate" id="speech-rate-wf-tools" min="0.5" max="2"
+                                step="0.1" value="1">
                         </div>
                     </div>
                 </div>
@@ -598,8 +702,10 @@
 
                 <!-- Actividad: Enlaza roles y descripciones -->
                 <div class="bg-white border-l-4 border-green-500 rounded-lg shadow-sm p-6 mb-8">
-                    <h3 class="text-xl font-bold text-green-700 mb-4">Actividad: Enlaza los roles con sus funciones</h3>
-                    <p class="text-slate-700 mb-6">Haz clic en un rol y luego en su descripción correcta para crear una
+                    <h3 class="text-xl font-bold text-green-700 mb-4">Actividad 1: Enlaza los conceptos con sus
+                        descripciones</h3>
+                    <p class="text-slate-700 mb-6">Haz clic en un concepto UX/UI y luego en su descripción correcta para
+                        crear una
                         línea de conexión.</p>
 
                     <div class="relative">
@@ -613,23 +719,23 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 relative">
                             <!-- Columna de roles -->
                             <div>
-                                <h4 class="font-semibold text-slate-800 mb-3">Roles:</h4>
+                                <h4 class="font-semibold text-slate-800 mb-3">Conceptos:</h4>
                                 <div class="space-y-2">
                                     <div class="role-item bg-blue-100 border-2 border-blue-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-blue-200 transition-colors block w-full"
-                                        data-role="vocero" data-connected="false">
-                                        <p class="font-bold text-slate-800 text-sm">Vocero</p>
+                                        data-role="wireframe" data-connected="false">
+                                        <p class="font-bold text-slate-800 text-sm">Wireframe</p>
                                     </div>
                                     <div class="role-item bg-blue-100 border-2 border-blue-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-blue-200 transition-colors block w-full"
-                                        data-role="secretario" data-connected="false">
-                                        <p class="font-bold text-slate-800 text-sm">Secretario</p>
+                                        data-role="protobaja" data-connected="false">
+                                        <p class="font-bold text-slate-800 text-sm">Prototipo Baja</p>
                                     </div>
                                     <div class="role-item bg-blue-100 border-2 border-blue-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-blue-200 transition-colors block w-full"
-                                        data-role="creativo" data-connected="false">
-                                        <p class="font-bold text-slate-800 text-sm">Creativo</p>
+                                        data-role="protoalta" data-connected="false">
+                                        <p class="font-bold text-slate-800 text-sm">Prototipo Alta</p>
                                     </div>
                                     <div class="role-item bg-blue-100 border-2 border-blue-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-blue-200 transition-colors block w-full"
-                                        data-role="lider" data-connected="false">
-                                        <p class="font-bold text-slate-800 text-sm">Líder</p>
+                                        data-role="figma" data-connected="false">
+                                        <p class="font-bold text-slate-800 text-sm">Figma</p>
                                     </div>
                                 </div>
                             </div>
@@ -639,24 +745,24 @@
                                 <h4 class="font-semibold text-slate-800 mb-3">Descripciones:</h4>
                                 <div class="space-y-2">
                                     <div class="description-item bg-green-100 border-2 border-green-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-green-200 transition-colors block w-full"
-                                        data-description="organiza" data-connected="false">
-                                        <p class="text-slate-800 text-sm leading-relaxed">a) Organiza, guía y motiva al
-                                            grupo.</p>
+                                        data-description="realista" data-connected="false">
+                                        <p class="text-slate-800 text-sm leading-relaxed">a) Simulación casi idéntica al
+                                            producto final.</p>
                                     </div>
                                     <div class="description-item bg-green-100 border-2 border-green-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-green-200 transition-colors block w-full"
-                                        data-description="registra" data-connected="false">
-                                        <p class="text-slate-800 text-sm leading-relaxed">b) Registra los acuerdos y
-                                            tareas.</p>
+                                        data-description="esquematico" data-connected="false">
+                                        <p class="text-slate-800 text-sm leading-relaxed">b) Representación visual
+                                            esquemática sin diseño.</p>
                                     </div>
                                     <div class="description-item bg-green-100 border-2 border-green-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-green-200 transition-colors block w-full"
-                                        data-description="expone" data-connected="false">
-                                        <p class="text-slate-800 text-sm leading-relaxed">c) Expone las ideas del grupo
-                                            ante otros.</p>
+                                        data-description="herramienta" data-connected="false">
+                                        <p class="text-slate-800 text-sm leading-relaxed">c) Herramienta digital para
+                                            crear interfaces colaborativamente.</p>
                                     </div>
                                     <div class="description-item bg-green-100 border-2 border-green-300 px-3 py-3 rounded-lg cursor-pointer hover:bg-green-200 transition-colors block w-full"
-                                        data-description="aporta" data-connected="false">
-                                        <p class="text-slate-800 text-sm leading-relaxed">d) Aporta ideas innovadoras o
-                                            diseña materiales.</p>
+                                        data-description="basico" data-connected="false">
+                                        <p class="text-slate-800 text-sm leading-relaxed">d) Simulación básica e
+                                            interactiva de flujos.</p>
                                     </div>
                                 </div>
                             </div>
@@ -694,37 +800,38 @@
                                 <p class="text-slate-800 text-lg leading-relaxed">
                                     Un <span
                                         class="drop-zone-word inline-block min-w-[120px] min-h-[36px] border-b-2 border-dashed border-green-400 bg-white px-2 py-1 mx-1 text-center align-middle"
-                                        data-answer="grupo" data-sentence="1"></span> es un conjunto de personas que
-                                    trabajan de forma independiente y no comparten un mismo objetivo.
+                                        data-answer="wireframe" data-sentence="1"></span> es la estructura básica de una
+                                    interfaz antes de aplicar características de diseño visual.
                                 </p>
                             </div>
 
                             <!-- Frase 2 -->
                             <div class="sentence-container bg-slate-50 p-4 rounded-lg border border-slate-200">
                                 <p class="text-slate-800 text-lg leading-relaxed">
-                                    En el trabajo colaborativo se valora la <span
+                                    El prototipo permite simular la <span
                                         class="drop-zone-word inline-block min-w-[120px] min-h-[36px] border-b-2 border-dashed border-green-400 bg-white px-2 py-1 mx-1 text-center align-middle"
-                                        data-answer="responsabilidad" data-sentence="2"></span>, la comunicación y el
-                                    respeto mutuo.
+                                        data-answer="interaccion" data-sentence="2"></span> y navegación mediante
+                                    pantallas clickeables.
                                 </p>
                             </div>
 
                             <!-- Frase 3 -->
                             <div class="sentence-container bg-slate-50 p-4 rounded-lg border border-slate-200">
                                 <p class="text-slate-800 text-lg leading-relaxed">
-                                    El <span
+                                    La herramienta más popular en la industria para el diseño colaborativo de interfaces
+                                    es <span
                                         class="drop-zone-word inline-block min-w-[120px] min-h-[36px] border-b-2 border-dashed border-green-400 bg-white px-2 py-1 mx-1 text-center align-middle"
-                                        data-answer="lider" data-sentence="3"></span> es quien organiza las actividades
-                                    y motiva al grupo a cumplir las metas.
+                                        data-answer="figma" data-sentence="3"></span>.
                                 </p>
                             </div>
 
                             <!-- Frase 4 -->
                             <div class="sentence-container bg-slate-50 p-4 rounded-lg border border-slate-200">
                                 <p class="text-slate-800 text-lg leading-relaxed">
-                                    Es una norma básica del trabajo en equipo: respetar las <span
+                                    El nivel de <span
                                         class="drop-zone-word inline-block min-w-[120px] min-h-[36px] border-b-2 border-dashed border-green-400 bg-white px-2 py-1 mx-1 text-center align-middle"
-                                        data-answer="opiniones" data-sentence="4"></span> de los demás.
+                                        data-answer="fidelidad" data-sentence="4"></span> determina qué tan realista se
+                                    verá un prototipo en comparación con el final.
                                 </p>
                             </div>
                         </div>
@@ -735,20 +842,20 @@
                         <h4 class="font-semibold text-slate-800 mb-4">Palabras disponibles:</h4>
                         <div id="words-container" class="flex flex-wrap gap-3 justify-center">
                             <div class="word-item bg-green-100 border-2 border-green-300 px-4 py-2 rounded-lg cursor-move hover:shadow-md transition-shadow font-semibold text-slate-800"
-                                draggable="true" data-word="grupo">
-                                Grupo
+                                draggable="true" data-word="wireframe">
+                                Wireframe
                             </div>
                             <div class="word-item bg-green-100 border-2 border-green-300 px-4 py-2 rounded-lg cursor-move hover:shadow-md transition-shadow font-semibold text-slate-800"
-                                draggable="true" data-word="responsabilidad">
-                                Responsabilidad
+                                draggable="true" data-word="interaccion">
+                                Interacción
                             </div>
                             <div class="word-item bg-green-100 border-2 border-green-300 px-4 py-2 rounded-lg cursor-move hover:shadow-md transition-shadow font-semibold text-slate-800"
-                                draggable="true" data-word="lider">
-                                Líder
+                                draggable="true" data-word="figma">
+                                Figma
                             </div>
                             <div class="word-item bg-green-100 border-2 border-green-300 px-4 py-2 rounded-lg cursor-move hover:shadow-md transition-shadow font-semibold text-slate-800"
-                                draggable="true" data-word="opiniones">
-                                Opiniones
+                                draggable="true" data-word="fidelidad">
+                                Fidelidad
                             </div>
                         </div>
                     </div>
@@ -772,11 +879,10 @@
 
             <!-- Evaluación -->
             <div id="evaluacion" class="content-pane">
-                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Evaluación. Preguntas de selección
-                    múltiple (marca la respuesta correcta)</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold text-green-800 mb-6">Evaluación</h2>
                 <div class="bg-white p-6 rounded-lg shadow-md">
-                    <p class="text-slate-600 mb-6">Selecciona la respuesta correcta para cada pregunta sobre grupos,
-                        equipos y trabajo colaborativo.</p>
+                    <p class="text-slate-600 mb-6">Selecciona la respuesta correcta para cada pregunta sobre wireframes
+                        y prototipos UX/UI.</p>
                     <div id="quiz-container"></div>
                     <button id="submit-quiz-btn"
                         class="mt-6 bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Finalizar
@@ -795,17 +901,17 @@
                     <li
                         class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500 flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Trabajo en equipo 1</h3>
-                            <a href="https://wordwall.net/resource/35211550/trabajo-en-equipo" target="_blank"
+                            <h3 class="font-bold text-green-700">Guía wireframing para principiantes</h3>
+                            <a href="https://www.youtube.com/watch?v=K79icjeOcn8&t=14s" target="_blank"
                                 class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
                             <div class="bg-green-50 border border-green-300 rounded flex items-center justify-center image-container"
                                 style="width:2cm;height:2cm;">
-                                <img src="img/Qr1.png" alt="Solución ejercicio 1"
+                                <img src="img/Guía_Wireframing_Principiantes.png" alt="Solución ejercicio 1"
                                     class="max-w-full max-h-full object-contain expandable-image"
                                     style="object-fit:contain;" loading="lazy">
-                                <button class="expand-btn" data-img="img/Qr1.png">🔍</button>
+                                <button class="expand-btn" data-img="img/Guía_Wireframing_Principiantes.png">🔍</button>
                             </div>
                         </div>
                     </li>
@@ -813,17 +919,17 @@
                     <li
                         class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500 flex flex-col sm:flex-row sm:items-center justify-between">
                         <div>
-                            <h3 class="font-bold text-green-700">Trabajo en equipo 2</h3>
-                            <a href="https://wordwall.net/resource/17263771/trabajo-en-equipo" target="_blank"
+                            <h3 class="font-bold text-green-700">Plantillas wireframe</h3>
+                            <a href="https://miro.com/es/plantillas/wireframe/" target="_blank"
                                 class="underline text-slate-700 hover:text-green-700">Ir al recurso</a>
                         </div>
                         <div class="mt-4 sm:mt-0 sm:ml-6 flex-shrink-0">
                             <div class="bg-green-50 border border-green-300 rounded flex items-center justify-center image-container"
                                 style="width:2cm;height:2cm;">
-                                <img src="img/Qr2.png" alt="Solución ejercicio 1"
+                                <img src="img/Plantillas_Wireframe.png" alt="Solución ejercicio 1"
                                     class="max-w-full max-h-full object-contain expandable-image"
                                     style="object-fit:contain;" loading="lazy">
-                                <button class="expand-btn" data-img="img/Qr2.png">🔍</button>
+                                <button class="expand-btn" data-img="img/Plantillas_Wireframe.png">🔍</button>
                             </div>
                         </div>
                     </li>
@@ -837,39 +943,33 @@
                     <div
                         class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
                         <span class="block text-slate-700">
-                            Johnson, D. W. & Johnson, R. T. (2009). <i>El aprendizaje cooperativo en el aula</i>.
-                            Editorial Paidós.<br>
-                            <span class="text-slate-600 text-sm mt-1 block">Explica cómo funciona el trabajo
-                                colaborativo y los roles dentro del aprendizaje en grupo.</span>
+                            Garrett, J. J. (2011). <i>The Elements of User Experience (2nd ed.)</i>. New Riders.
                         </span>
                     </div>
                     <div
                         class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
                         <span class="block text-slate-700">
-                            Cabanas, C. & Freire, M. (2018). <i>Aprendizaje colaborativo y cooperativo</i>. Editorial
-                            Narcea.<br>
-                            <span class="text-slate-600 text-sm mt-1 block">Presenta estrategias didácticas para aplicar
-                                el trabajo en equipo en ambientes escolares.</span>
+                            Norman, D. (2013). <i>The Design of Everyday Things: Revised and Expanded Edition</i>. Basic
+                            Books.
                         </span>
                     </div>
                     <div
                         class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
                         <span class="block text-slate-700">
-                            Ministerio de Educación Nacional de Colombia (MEN). (2004). <i>Estándares Básicos de
-                                Competencias Ciudadanas</i>.<br>
-                            Disponible en: <a href="https://www.mineducacion.gov.co" target="_blank"
-                                class="text-green-600 hover:text-green-800 underline">https://www.mineducacion.gov.co</a><br>
-                            <span class="text-slate-600 text-sm mt-1 block">Incluye orientaciones sobre la convivencia,
-                                el trabajo en grupo y el respeto por la diversidad de opiniones.</span>
+                            Lidwell, W., Holden, K., & Butler, J. (2010). <i>Universal Principles of Design</i>.
+                            Rockport Publishers.
                         </span>
                     </div>
                     <div
                         class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
                         <span class="block text-slate-700">
-                            UNESCO (2015). <i>Educación para la ciudadanía mundial: temas y aprendizajes</i>.<br>
-                            Disponible en línea.<br>
-                            <span class="text-slate-600 text-sm mt-1 block">Aborda habilidades como la colaboración,
-                                resolución de conflictos y participación responsable.</span>
+                            Krug, S. (2014). <i>Don't Make Me Think, Revisited</i>. New Riders.
+                        </span>
+                    </div>
+                    <div
+                        class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-green-500">
+                        <span class="block text-slate-700">
+                            Babich, N. (2018). <i>Wireframing Essentials</i>. Packt Publishing.
                         </span>
                     </div>
                 </div>
