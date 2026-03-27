@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Correct answers mapping
     const correctAnswers = {
-        'vocero': 'expone',
-        'secretario': 'registra',
-        'creativo': 'aporta',
-        'lider': 'organiza'
+        'wireframe': 'esquematico',
+        'protobaja': 'basico',
+        'protoalta': 'realista',
+        'figma': 'herramienta'
     };
 
     // Initialize connection activity
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function () {
             resultDiv.innerHTML = `
                 <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded">
                     <p class="font-bold">⚠️ Atención</p>
-                    <p>Aún tienes ${4 - connections.length} conexión(es) sin hacer. Conecta todos los roles con sus descripciones.</p>
+                    <p>Aún tienes ${4 - connections.length} conexión(es) sin hacer. Conecta todos los conceptos con sus descripciones.</p>
                 </div>
             `;
             return;
@@ -184,16 +184,16 @@ document.addEventListener('DOMContentLoaded', function () {
         let colorClass = '';
 
         if (percentage === 100) {
-            message = '¡Excelente! Has conectado correctamente todos los roles con sus funciones.';
+            message = '¡Excelente! Has conectado correctamente todos los conceptos con sus descripciones.';
             colorClass = 'bg-green-100 border-green-500 text-green-800';
         } else if (percentage >= 75) {
             message = '¡Muy bien! Revisa las conexiones marcadas en rojo.';
             colorClass = 'bg-blue-100 border-blue-500 text-blue-800';
         } else if (percentage >= 50) {
-            message = 'Vas por buen camino. Revisa las funciones de cada rol.';
+            message = 'Vas por buen camino. Revisa el significado de cada concepto.';
             colorClass = 'bg-yellow-100 border-yellow-500 text-yellow-800';
         } else {
-            message = 'Necesitas repasar los roles y sus funciones. Inténtalo nuevamente.';
+            message = 'Necesitas repasar los niveles de fidelidad y herramientas. Inténtalo nuevamente.';
             colorClass = 'bg-red-100 border-red-500 text-red-800';
         }
 
@@ -392,16 +392,16 @@ document.addEventListener('DOMContentLoaded', function () {
         let colorClass = '';
 
         if (percentage === 100) {
-            message = '¡Excelente! Has completado correctamente todas las oraciones.';
+            message = '¡Excelente! Has completado correctamente todas las oraciones sobre diseño UX/UI.';
             colorClass = 'bg-green-100 border-green-500 text-green-800';
         } else if (percentage >= 75) {
             message = '¡Muy bien! Revisa las palabras marcadas en rojo para mejorar.';
             colorClass = 'bg-blue-100 border-blue-500 text-blue-800';
         } else if (percentage >= 50) {
-            message = 'Buen intento. Revisa el significado de cada palabra y vuelve a intentarlo.';
+            message = 'Buen intento. Revisa el significado de cada concepto UX y vuelve a intentarlo.';
             colorClass = 'bg-yellow-100 border-yellow-500 text-yellow-800';
         } else {
-            message = 'Necesitas repasar los conceptos sobre grupos y equipos. Revisa el contenido e inténtalo nuevamente.';
+            message = 'Necesitas repasar los conceptos sobre wireframes y prototipos. Revisa la lección e inténtalo nuevamente.';
             colorClass = 'bg-red-100 border-red-500 text-red-800';
         }
 

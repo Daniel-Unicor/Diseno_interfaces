@@ -1,59 +1,59 @@
-// --- Evaluación Quiz: Grupos y Equipos ---
+// --- Evaluación Quiz: Wireframes y Prototipos ---
 const quizData = [
     {
-        question: "¿Cuál es la principal diferencia entre un grupo y un equipo?",
+        question: "¿Cuál es la principal función de un wireframe?",
         options: [
-            "a) El grupo siempre tiene un líder.",
-            "b) En el grupo todos trabajan juntos por un objetivo común.",
-            "c) En el equipo hay colaboración y metas compartidas.",
-            "d) En el grupo todos hacen las mismas tareas."
+            "A. Definir los colores y tipografías de una interfaz",
+            "B. Mostrar la estructura y organización de una interfaz",
+            "C. Programar la funcionalidad de una aplicación",
+            "D. Crear animaciones y transiciones"
         ],
-        answer: "c) En el equipo hay colaboración y metas compartidas.",
-        feedback: "El equipo se caracteriza por la colaboración activa y metas compartidas, mientras que en un grupo las personas pueden estar juntas sin necesariamente colaborar."
+        answer: "B. Mostrar la estructura y organización de una interfaz",
+        feedback: "¡Muy bien! El wireframe se enfoca en la estructura, jerarquía y distribución de los elementos, no en el diseño visual final."
     },
     {
-        question: "¿Cuál de los siguientes ejemplos representa un grupo y no un equipo?",
+        question: "¿Por qué se dice que un wireframe es como el “esqueleto” de una interfaz?",
         options: [
-            "a) Estudiantes que hacen una exposición entre todos.",
-            "b) Compañeros que trabajan cada uno por separado.",
-            "c) Personas que se reparten tareas y se ayudan mutuamente.",
-            "d) Un grupo de deportistas que entrenan para ganar."
+            "A. Porque incluye todos los colores y estilos finales",
+            "B. Porque muestra cómo se verá el producto terminado",
+            "C. Porque representa la estructura básica sin detalles visuales",
+            "D. Porque permite interactuar con la interfaz"
         ],
-        answer: "b) Compañeros que trabajan cada uno por separado.",
-        feedback: "En un grupo las personas pueden estar juntas pero trabajar individualmente, mientras que en un equipo existe colaboración y coordinación."
+        answer: "C. Porque representa la estructura básica sin detalles visuales",
+        feedback: "¡Exacto! Así como un esqueleto da forma al cuerpo, el wireframe muestra la base estructural sin incluir detalles visuales."
     },
     {
-        question: "En el trabajo colaborativo, la comunicación y el respeto son…",
+        question: "¿Cuál de las siguientes NO es una función de los wireframes?",
         options: [
-            "a) Opcionales.",
-            "b) Responsabilidad del líder.",
-            "c) Fundamentales para lograr los objetivos.",
-            "d) Solo necesarias al inicio del proyecto."
+            "A. Pensar la estructura antes del diseño visual",
+            "B. Comunicar ideas entre el equipo",
+            "C. Probar y mejorar rápidamente",
+            "D. Programar la aplicación final"
         ],
-        answer: "c) Fundamentales para lograr los objetivos.",
-        feedback: "La comunicación efectiva y el respeto mutuo son esenciales para el éxito del trabajo colaborativo durante todo el proceso."
+        answer: "D. Programar la aplicación final",
+        feedback: "¡Correcto! Los wireframes no se utilizan para programar, sino para planificar, comunicar y validar ideas."
     },
     {
-        question: "¿Qué rol cumple el secretario dentro de un equipo?",
+        question: "¿Cuál es la principal diferencia entre un wireframe y un prototipo?",
         options: [
-            "a) Dirigir al grupo y tomar decisiones.",
-            "b) Motivar a los compañeros.",
-            "c) Anotar acuerdos y tareas realizadas.",
-            "d) Exponer los resultados ante el público."
+            "A. El wireframe es interactivo y el prototipo no",
+            "B. El prototipo es estático y el wireframe interactivo",
+            "C. El wireframe muestra estructura y el prototipo permite interacción",
+            "D. No existe diferencia entre ellos"
         ],
-        answer: "c) Anotar acuerdos y tareas realizadas.",
-        feedback: "El secretario es responsable de documentar los acuerdos, seguimiento de tareas y mantener el registro del equipo."
+        answer: "C. El wireframe muestra estructura y el prototipo permite interacción",
+        feedback: "¡Muy bien! El wireframe define la estructura, mientras que el prototipo permite simular la experiencia del usuario mediante interacción."
     },
     {
-        question: "¿Cuál es la función del vocero?",
+        question: "¿Cuál es una ventaja de los prototipos de baja fidelidad?",
         options: [
-            "a) Organizar el tiempo.",
-            "b) Representar al grupo y comunicar sus ideas.",
-            "c) Revisar los materiales.",
-            "d) Evaluar el trabajo de los demás."
+            "A. Son altamente realistas",
+            "B. Permiten impresionar a clientes fácilmente",
+            "C. Son rápidos de crear y fáciles de modificar",
+            "D. Incluyen animaciones avanzadas"
         ],
-        answer: "b) Representar al grupo y comunicar sus ideas.",
-        feedback: "El vocero actúa como portavoz del equipo, representando las decisiones y comunicando las posturas del grupo."
+        answer: "C. Son rápidos de crear y fáciles de modificar",
+        feedback: "¡Correcto! Los prototipos de baja fidelidad son ideales para explorar ideas rápidamente sin invertir mucho tiempo."
     }
 ];
 
@@ -89,18 +89,18 @@ if (submitQuizBtn) {
         let score = 0;
         const questions = quizContainer.querySelectorAll('.mb-6');
         const feedbacks = [
-            'Correcto: El equipo se caracteriza por la colaboración activa y metas compartidas, mientras que en un grupo las personas pueden estar juntas sin necesariamente colaborar.',
-            'Correcto: En un grupo las personas pueden estar juntas pero trabajar individualmente, mientras que en un equipo existe colaboración y coordinación.',
-            'Correcto: La comunicación efectiva y el respeto mutuo son esenciales para el éxito del trabajo colaborativo durante todo el proceso.',
-            'Correcto: El secretario es responsable de documentar los acuerdos, seguimiento de tareas y mantener el registro del equipo.',
-            'Correcto: El vocero actúa como portavoz del equipo, representando las decisiones y comunicando las posturas del grupo.'
+            '¡Muy bien! El wireframe se enfoca en la estructura, jerarquía y distribución de los elementos, no en el diseño visual final.',
+            '¡Exacto! Así como un esqueleto da forma al cuerpo, el wireframe muestra la base estructural sin incluir detalles visuales.',
+            '¡Correcto! Los wireframes no se utilizan para programar, sino para planificar, comunicar y validar ideas.',
+            '¡Muy bien! El wireframe define la estructura, mientras que el prototipo permite simular la experiencia del usuario mediante interacción.',
+            '¡Correcto! Los prototipos de baja fidelidad son ideales para explorar ideas rápidamente sin invertir mucho tiempo.'
         ];
         const wrongFeedbacks = [
-            'Incorrecto. En el equipo hay colaboración y metas compartidas. El equipo se distingue por la colaboración activa.',
-            'Incorrecto. Compañeros que trabajan cada uno por separado. Esto representa un grupo donde no hay colaboración.',
-            'Incorrecto. Fundamentales para lograr los objetivos. La comunicación y el respeto son esenciales durante todo el proceso.',
-            'Incorrecto. Anotar acuerdos y tareas realizadas. El secretario se encarga de la documentación y registro.',
-            'Incorrecto. Representar al grupo y comunicar sus ideas. El vocero actúa como portavoz del equipo.'
+            'No es correcto. El wireframe no define aspectos visuales ni técnicos; su objetivo principal es organizar la estructura y el contenido de la interfaz.',
+            'Respuesta incorrecta. El wireframe no incluye interacción ni diseño visual detallado, solo representa la estructura básica.',
+            'No es la opción correcta. Los wireframes sí ayudan a pensar, comunicar y probar ideas, pero no tienen ninguna función de programación.',
+            'Respuesta incorrecta. La diferencia clave está en la interactividad: el prototipo permite navegar y probar la experiencia, el wireframe no.',
+            'No es correcto. Las características como realismo y animaciones pertenecen a prototipos de alta fidelidad, no a los de baja.'
         ];
         questions.forEach((q, index) => {
             const selectedOption = q.querySelector('.quiz-option.selected');
